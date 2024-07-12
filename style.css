@@ -60,10 +60,7 @@ p {
     margin-bottom: 10px;
 }
 
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f8f9fa;
-}
+
 
 .table {
     grid-column: span 2;
