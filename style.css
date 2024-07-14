@@ -61,25 +61,15 @@ p {
 }
 
 
-
-.table {
+.table{
     grid-column: span 2;
-    margin-top: 10px;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.table thead {
-    background-color: #343a40;
-    color: white;
-}
-
-.table tbody tr:hover {
-    background-color: #f1f1f1;
-}
-
-.table tbody tr:nth-of-type(odd) {
-    background-color: #f9f9f9;
+    margin-top: 20px;
+    --bs-table-striped-color: #212529;
+    --bs-table-bg : white;
+    --bs-table-hover-bg:  #FFE4B5;
+    --bs-table-hover-color: #212529;
+    --bs-table-active-color: #212529;
+    border-color : red;
 }
 
 
